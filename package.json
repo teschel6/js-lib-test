@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/teschel6/js-lib-test.git"
   },
+  "publishConfig": {
+    "@teschel6:registry": "https://npm.pkg.github.com"
+  },
   "author": "teschel6@github.com",
   "license": "ISC",
   "bugs": {
