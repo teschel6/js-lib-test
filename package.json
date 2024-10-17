@@ -1,0 +1,19 @@
+{
+  "name": "@teschel6/js-lib-test",
+  "version": "1.0.0",
+  "description": "Just a test js library project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teschel6/js-lib-test.git"
+  },
+  "author": "teschel6@github.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teschel6/js-lib-test/issues"
+  },
+  "homepage": "https://github.com/teschel6/js-lib-test#readme"
+}
