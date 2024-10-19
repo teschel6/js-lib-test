@@ -3,10 +3,7 @@
 
 name: Node.js Package
 
-on:
-  push:
-    branches:
-      - 'main'
+on: [push]
 
 jobs:
   build:
@@ -21,6 +18,7 @@ jobs:
 
   publish-gpr:
     needs: build
+    if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
