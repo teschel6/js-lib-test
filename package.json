@@ -1,6 +1,6 @@
 {
   "name": "@teschel6/js-lib-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Just a test js library project.",
   "main": "index.js",
   "scripts": {
