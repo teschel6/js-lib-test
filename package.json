@@ -1,10 +1,10 @@
 {
   "name": "@teschel6/js-lib-test",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Just a test js library project.",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "exit 0"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/teschel6/js-lib-test/issues"
   },
-  "homepage": "https://github.com/teschel6/js-lib-test#readme"
+  "homepage": "https://github.com/teschel6/js-lib-test#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
 }
